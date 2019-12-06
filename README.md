@@ -4,10 +4,7 @@
 Repository data is for demonstration and reproducibility purposes **ONLY**.
 
 The repository provides QTDU implementation, as well as numerical datasets and image sets used in the validation of the approach.
-QTDU is currently under analysis for publication in a peer-reviewed journal.  
-
-*	We will release full source code after the first review stage
-*	Datasets include validation data we used in the experiments
+Paper link: https://www.sciencedirect.com/science/article/pii/S0169260719306753
 
 QTDU is an approach that combines deep learning models to superpixel-driven segmentation methods for assessing the quality of tissues from dermatological ulcers.
 The approach consists of a three-stage pipeline for the obtaining of ulcer segmentation, tissues' labeling, and pixelwise area quantification, as follows:
@@ -33,8 +30,8 @@ We suggest the use of a GPU-based cluster for speeding up the deep learning mode
 QTDU implementation is divided into two main blocks, as follows: 
 
 * Code-block:
-	* InceptionV3 implementation (Link to be released after review)
-	* ResNet50 implementation (Link to be released after review)
+	* InceptionV3 implementation
+	* ResNet50 implementation
 
 ### 3. QTDU Datasets
 
@@ -61,7 +58,6 @@ Datasets' repository is organized as follow:
 	* ScalableColorKG.csv, which provides superpixels representation regarding MPEG-7 Scalable Color extractor reduced by PCA according the Keiser-Guttman criterion (18-dimensional vectors),
 	* ColorStructureSP.csv, which provides superpixels representation regarding MPEG-7 Color Structure extractor reduced by PCA according the Scree-Plot criterion (12-dimensional vectors), 
 	* ScalableColorSP.csv, which provides superpixels representation regarding MPEG-7 Scalable Color extractor reduced by PCA according the Scree-Plot criterion (6-dimensional vectors),
-
 
 ### 4. Additional Information and Legal Note
 
